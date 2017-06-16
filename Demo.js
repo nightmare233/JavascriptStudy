@@ -54,6 +54,7 @@ alert(this.color);
 
 box.sayhi();
 */
+/*
 function sum(num1, num2){
 	return num1+num2;
 }
@@ -61,7 +62,14 @@ function testsum(){
 	return sum.apply(this,arguments);
 }
 alert(testsum(10,2));
-
+*/
+function sayhi2(){
+	return new{
+		name:"fengchufu",
+		age: 32,
+		location:"changsha"
+	};
+}
 
 
 
